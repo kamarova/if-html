@@ -9,7 +9,9 @@
   <title>Lesson 3</title>
 </head>
 <body>
-<h1>Lesson 3</h1>
+<h2>Image</h2>
+<img src="img/grapefruit.jpeg"
+     alt="a slice of grapefruit">
 <h2>List</h2>
 <ol>
   <li>Знакомство с Web
@@ -42,8 +44,6 @@
     </ul>
   </li>
 </ol>
-<img src="img/grapefruit.jpeg"
-alt="a slice of grapefruit">
 <h2>Science</h2>
 <table border="1" width="50%">
   <thead>
@@ -88,32 +88,66 @@ alt="a slice of grapefruit">
     <td>Groups the footer content in a table</td>
   </tr>
   </tbody>
-<h2>Demographic survey</h2>
-<form>
-  <fieldset>
-    <legend>My first form</legend>
-    <p>
-      <label for="name">Name</label><br />
-      <input id="name" type="text" name="name" placeholder="Name" />
-    </p>
-    <p>
-      <label for="email">Email</label><br />
-      <input id="email" type="email" name="email" />
-    </p>
-    <p>
-      <label for="password">Password</label><br />
-      <input id="password" type="password" name="password" />
-    </p>
-<p>
-  <label for="programming">Your programming level</label><br />
-  <input
-          id="programming"
-          type="range"
-          name="english"
-          placeholder="Your name"
-          min="0"
-          max="10"
-  />
-</p>
+</table>>
+  <h2>Demographic survey</h2>
+  <form action="" method="get">
+    <fieldset>
+      <legend>My first form</legend>
+      <p>
+        <label for="name">Name</label><br>
+        <input id="name" type="text" name="name" placeholder="Name" />
+      </p>
+      <p>
+        <label for="email">Email</label><br>
+        <input id="email" type="email" name="email" />
+      </p>
+      <p>
+        <label for="password">Password</label><br>
+        <input id="password" type="password" name="password" />
+      </p>
+      <p>
+        <label for="programming">Your programming level</label><br>
+        <input
+                id="programming"
+                type="range"
+                name="english"
+                placeholder="Your name"
+                min="0"
+                max="10"
+        />
+      </p>
+      What does HTML stand for?<br />
+      <input id="html-1" type="checkbox" name="html" value="1" />
+      <label for="html-1">Hyperlinks and Test Markup Language</label><br>
+      <input id="html-2" type="checkbox" name="html" value="2" />
+      <label for="html-2">Home Tool Markup Language</label><br>
+      <input id="html-3" type="checkbox" name="html" value="3" />
+      <label for="html-3">Hyper Text Markup Language</label><br>
+      <p>
+        What does HTML stand for?<br>
+        <input id="html-1" type="radio" name="html" value="1" />
+        <label for="html-1">Hyper Text Translate Protocol</label><br>
+        <input id="html-2" type="radio" name="html" value="2" />
+        <label for="html-2">Hyper Text Transmission Protocol</label><br>
+        <input id="html-3" type="radio" name="html" value="3" />
+        <label for="html-3">Hyper Text Transfer Protocol</label><br>
+      <p>
+        <label for="comment">Comment</label><br>
+        <textarea id="comment" name="comment" placeholder="Comment"></textarea>
+      </p>
+      <p>
+        <label for="HTML">What does HTML stand for?</label><br>
+        <select name="HTML" id="HTML">
+          <option disabled selected>Your answer</option>
+          <option value="1">Web</option>
+          <option value="2">Cites</option>
+          <option value="3">N/A</option>
+        </select>
+      </p>
+      <p>
+        <button>Send</button>
+      </p>
+    </fieldset>
+  </form>
 </body>
 </html>
