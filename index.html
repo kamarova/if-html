@@ -90,20 +90,20 @@
   </tbody>
 </table>>
   <h2>Demographic survey</h2>
-  <form action="" method="get">
+  <form action="/home/2" method="get">
     <fieldset>
       <legend>My first form</legend>
       <p>
         <label for="name">Name</label><br>
-        <input id="name" type="text" name="name" placeholder="Name" />
+        <input required id="name" type="text" name="name" placeholder="Name" />
       </p>
       <p>
         <label for="email">Email</label><br>
-        <input id="email" type="email" name="email" />
+        <input required id="email" type="email" name="email" />
       </p>
       <p>
         <label for="password">Password</label><br>
-        <input id="password" type="password" name="password" />
+        <input required id="password" type="password" name="password" />
       </p>
       <p>
         <label for="programming">Your programming level</label><br>
@@ -131,9 +131,10 @@
         <label for="html-2">Hyper Text Transmission Protocol</label><br>
         <input id="html-3" type="radio" name="html" value="3" />
         <label for="html-3">Hyper Text Transfer Protocol</label><br>
+      <p/>
       <p>
         <label for="comment">Comment</label><br>
-        <textarea id="comment" name="comment" placeholder="Comment"></textarea>
+        <textarea maxlength="500" id="comment" name="comment" placeholder="Comment"></textarea>
       </p>
       <p>
         <label for="HTML">What does HTML stand for?</label><br>
