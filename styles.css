@@ -1,0 +1,17 @@
+.title {
+    margin-left: 600px;
+    margin-top: 120px;
+}
+
+.stroke  {
+    margin-left: 670px;
+}
+
+.service {
+    margin-left: 170px;
+}
+
+.row {
+    display: flex;
+    margin-top: 288px;
+}
