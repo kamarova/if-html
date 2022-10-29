@@ -1,0 +1,55 @@
+.title {
+    margin: 10px auto 0;
+    width: 306px;
+    height: 47px;
+    left: 567px;
+    top: 1020px;
+}
+
+.container {
+    margin: 10px auto 0;
+    position: absolute;
+    width: 1440px;
+    height: 569px;
+    left: 0px;
+}
+
+.service-title-support {
+    width: 75px;
+    height: 91.67px;
+    top: 4.17px;
+    left: 12.5px;
+}
+
+.service-title-communicate {
+    width: 83.33px;
+    height: 83.33px;
+    top: 8.33px;
+    left: 8.33px;
+}
+
+.service-title-book-online {
+    width: 100px;
+    height: 66.67px;
+    top: 16.67px;
+}
+
+.service-title-real-guest-reviews {
+    width: 91.67px;
+    height: 83.33px;
+    top: 4.17px;
+    left: 4.17px;
+}
+
+.stroke  {
+    margin-left: 670px;
+}
+
+.service {
+    margin-left: 170px;
+}
+
+.row {
+    display: flex;
+    margin-top: 288px;
+}
